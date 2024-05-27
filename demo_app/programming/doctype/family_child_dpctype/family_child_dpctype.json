@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-27 11:06:19.666313",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "family_details_section",
+  "name1",
+  "age"
+ ],
+ "fields": [
+  {
+   "fieldname": "family_details_section",
+   "fieldtype": "Section Break",
+   "label": "Family Details"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "name"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "age"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-27 11:08:34.381072",
+ "modified_by": "Administrator",
+ "module": "Programming",
+ "name": "Family Child Dpctype",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

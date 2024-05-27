@@ -1,0 +1,145 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-22 12:09:34.276608",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "info_feild_section",
+  "image_attachment",
+  "barcode_feild",
+  "attachement",
+  "button",
+  "check",
+  "currency",
+  "data_field",
+  "date_field",
+  "date_time_field",
+  "float",
+  "integer_field",
+  "todo",
+  "select_field",
+  "text",
+  "column_break_vjxa",
+  "color",
+  "new_barcode_field"
+ ],
+ "fields": [
+  {
+   "fieldname": "info_feild_section",
+   "fieldtype": "Section Break",
+   "label": "Info Feild"
+  },
+  {
+   "fieldname": "image_attachment",
+   "fieldtype": "Attach Image",
+   "label": "Image Attachment"
+  },
+  {
+   "fieldname": "barcode_feild",
+   "fieldtype": "Barcode",
+   "label": "Barcode Feild"
+  },
+  {
+   "fieldname": "attachement",
+   "fieldtype": "Attach",
+   "label": "Attachement"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "Button"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "check"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "data_field",
+   "fieldtype": "Data",
+   "label": "Data Field"
+  },
+  {
+   "fieldname": "date_field",
+   "fieldtype": "Date",
+   "label": "date field"
+  },
+  {
+   "fieldname": "date_time_field",
+   "fieldtype": "Datetime",
+   "label": "date time field"
+  },
+  {
+   "fieldname": "float",
+   "fieldtype": "Float",
+   "label": "Float"
+  },
+  {
+   "fieldname": "integer_field",
+   "fieldtype": "Int",
+   "label": "integer field"
+  },
+  {
+   "fieldname": "todo",
+   "fieldtype": "Link",
+   "label": "Todo",
+   "options": "Demo Doctype"
+  },
+  {
+   "fieldname": "select_field",
+   "fieldtype": "Select",
+   "label": "select field",
+   "options": "O\nA\nB\ncd"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Text",
+   "label": "text"
+  },
+  {
+   "fieldname": "column_break_vjxa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "Color"
+  },
+  {
+   "fieldname": "new_barcode_field",
+   "fieldtype": "Barcode",
+   "label": "new Barcode field"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-22 12:19:54.551100",
+ "modified_by": "Administrator",
+ "module": "Programming",
+ "name": "Practice Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

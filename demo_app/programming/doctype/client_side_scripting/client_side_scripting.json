@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-27 10:59:49.431713",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_ccuy",
+  "personal_details_column",
+  "name1",
+  "email",
+  "date_of_birth",
+  "column_break_pzec",
+  "family_details",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_ccuy",
+   "fieldtype": "Section Break",
+   "label": "User Details"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Client Side Scripting",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "personal_details_column",
+   "fieldtype": "Column Break",
+   "label": "Personal Details"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date Of Birth"
+  },
+  {
+   "fieldname": "column_break_pzec",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "family_details",
+   "fieldtype": "Table",
+   "label": "Family Details",
+   "options": "Family Child Dpctype"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-05-27 11:08:56.412158",
+ "modified_by": "Administrator",
+ "module": "Programming",
+ "name": "Client Side Scripting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

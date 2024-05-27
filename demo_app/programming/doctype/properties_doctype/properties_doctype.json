@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-22 12:39:44.107722",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "firstname",
+  "middlename",
+  "lastname"
+ ],
+ "fields": [
+  {
+   "depends_on": "lastname",
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "firstname",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middlename",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "middlename"
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "lastname"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-22 12:49:27.141002",
+ "modified_by": "Administrator",
+ "module": "Programming",
+ "name": "Properties Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

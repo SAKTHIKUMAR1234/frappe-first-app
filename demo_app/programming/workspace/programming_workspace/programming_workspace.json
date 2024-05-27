@@ -1,0 +1,75 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"aBdatulOty\",\"type\":\"paragraph\",\"data\":{\"text\":\"ShortCut\",\"col\":12}},{\"id\":\"CBVUkUEluC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Normal Doctype Shortcut\",\"col\":3}},{\"id\":\"RNvBeV5peX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Single Doctype Shortcut\",\"col\":3}},{\"id\":\"PhxY2hLORZ\",\"type\":\"paragraph\",\"data\":{\"text\":\"link card\",\"col\":12}},{\"id\":\"xbXo18cbWO\",\"type\":\"card\",\"data\":{\"card_name\":\"Link Card\",\"col\":3}}]",
+ "creation": "2024-05-27 10:40:50.941707",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Programming Workspace",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Normal Doctype link card",
+   "link_count": 0,
+   "link_to": "Normal Doctype",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "description": "The link card to the normal doctype",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Link Card",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "normal doctype link",
+   "link_count": 0,
+   "link_to": "Normal Doctype",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-05-27 10:58:23.213973",
+ "modified_by": "Administrator",
+ "module": "Programming",
+ "name": "Programming Workspace",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 30.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Single Doctype Shortcut",
+   "link_to": "Single Doctype",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Normal Doctype Shortcut",
+   "link_to": "Normal Doctype",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Programming Workspace"
+}
